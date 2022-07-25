@@ -22,8 +22,28 @@ body,html{
     background-color: green;
     display: grid;
 }
+.nav ul,
+.utility ul{
+    margin: 2%;
+    position:relative;
+    display: grid;
+    grid-template-columns: 3.5em auto;
+    padding: 5px;
+    margin-left: 5%;
+}
 .nav li,
 .utility li{
    font-size: 2em; 
    color: white;
+   list-style-type:none;
+   
+}
+.nav img,
+.utility img{
+    max-height: 75%;
+    filter: brightness(0) invert(1);
+}
+.nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
