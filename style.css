@@ -1,0 +1,29 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.sidebar{
+    background-color: #0096FF;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.header{
+    background-color: orange;
+    display: grid;
+}
+
+.content{
+    background-color: green;
+    display: grid;
+}
+.nav li,
+.utility li{
+   font-size: 2em; 
+   color: white;
+}
