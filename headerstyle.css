@@ -5,6 +5,7 @@
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    
 }
 
 .notif{
@@ -98,7 +99,7 @@ ul.function{
 }
 .greetings{
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
 }
@@ -107,5 +108,8 @@ ul.function{
     grid-row-start: 1;
     grid-row-end: 3;
     max-height: 5rem;
+}
+.bigname{
+    font-size: 2em;
 }
 

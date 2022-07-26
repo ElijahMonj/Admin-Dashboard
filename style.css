@@ -13,6 +13,8 @@ body,html{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 250px auto;
+    height: 100%;
+    width: 100%;
 }
 .sidebar{
     background-color: #0096FF;
@@ -21,10 +23,13 @@ body,html{
 }
 .header{
     background-color: white;
+    
+    
 }
 
 .content{
-    background-color: green;
+    background-color: lightblue;
     display: grid;
+    box-shadow: inset 0 0 10px #000000;
 }
 
