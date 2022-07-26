@@ -12,6 +12,7 @@ body,html{
     background-color: red;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 250px auto;
 }
 .sidebar{
     background-color: #0096FF;
@@ -19,8 +20,7 @@ body,html{
     grid-row-end: 3;
 }
 .header{
-    background-color: orange;
-    display: grid;
+    background-color: white;
 }
 
 .content{

@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="headerstyle.css">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,11 +48,31 @@
                 </ul>
             </div>
         </div>
-        
 
-
-
-        <div class="header"></div>
+        <div class="header">
+            <div class="headercontainer">
+                <form class="search" id="myDiv">         
+                    <input type="image" name="submit" src="icons/search.svg" class="searchicon">
+                    <input type="text" id="searchbar" placeholder="Search something...">
+                </form>
+                <div class="notif"><img src="icons/notif_on.svg" alt=""></div>
+                <div class="name"><img src="demonslayer.jpg" alt="" class="profilepic"><p>Elijah Monjardin</p></div>
+            </div><br>
+            <div class="profilecontainer">
+                <div class="greetings">
+                        <img src="demonslayer.jpg" alt="" class="bigpic">
+                        <div class="greet">Welcome back,</div>
+                        <div class="bigname">Elijah Monjardin</div>
+                </div>
+                
+                <ul class="function">
+                    <li>New</li>
+                    <li>Upload</li>
+                    <li>Share</li>
+                </ul>
+                
+            </div>
+        </div>
         <div class="content"></div>
     </div>
 </body>
