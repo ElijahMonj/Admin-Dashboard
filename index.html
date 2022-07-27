@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navstyle.css">
     <link rel="stylesheet" href="headerstyle.css">
+    <link rel="stylesheet" href="contentstyle.css">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,9 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="container">
+    
         <div class="sidebar">
+            <div class="sidebarcontainer">
             <div class="logo">
                 <img src="icons/logo.svg" id="logopic">
                 <div class="title">CodeCircle</div>
@@ -48,8 +50,10 @@
                 </ul>
             </div>
         </div>
+        </div>
 
         <div class="header">
+            
             <div class="headercontainer">
                 <form class="search" id="myDiv">         
                     <input type="image" name="submit" src="icons/search.svg" class="searchicon">
@@ -61,8 +65,9 @@
             <div class="profilecontainer">
                 <div class="greetings">
                         <img src="demonslayer.jpg" alt="" class="bigpic">
-                        <div class="greet">Welcome back,</div>
-                        <div class="bigname">Elijah Monjardin (@ElijahMonj)</div>
+                        <div class="greet">Hi there,</div>
+                        <div class="bigname">Elijah Monjardin</div>
+                        <div class="greet">@ElijahMonj</div>
                 </div>
                 
                 <ul class="function">
@@ -73,7 +78,80 @@
                 
             </div>
         </div>
-        <div class="content"></div>
-    </div>
+        <div class="content">
+           <div class="contentcontainer">
+                <div class="projects">
+                    <div class="project-title">Your Projects</div>
+                    <div class="yourprojects">
+                        <div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div>
+
+                        <div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div>
+                        <div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div><div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div><div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div><div class="feeds">
+                            <div class="feedbox">
+                                <div class="feedtitle">Main project</div>
+                                <p class="feeddetail">Main project Main project Main project Main project Main project</p>            
+                            </div>
+                            <div class="likedislike">
+                                <img src="icons/star.svg" alt="" class="socialicons" id="favorite" onclick="favorite()">
+                                <img src="icons/comment.svg" alt=""class="socialicons" id="comment">
+                                <img src="icons/dislike.svg" alt=""class="socialicons"id="dislike" onclick="dislike()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="others"></div>
+           </div>
+        </div>
+    
 </body>
 </html>

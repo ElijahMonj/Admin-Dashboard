@@ -1,11 +1,10 @@
+
 .headercontainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    
 }
 
 .notif{
@@ -71,45 +70,51 @@
 }
 .profilecontainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 5%;
-    margin-right: 13%;
+    margin-right: 5%;
     align-items: center;
+    
     
 }
 .function li{
     list-style-type: none;
-    min-width: 4.5em;
     padding: 5%;
     background-color: #0096FF;
-    margin: 5%;
+    margin:5%;
+    padding: 5%;
     text-align: center;
     color: white;
     border-radius: 50px ;
     transition: 0.3s;
+    font-size: 1.2em;
+    
 }
 .function li:hover{
     background-color:#1C4D90;
     cursor: pointer;
 }
 ul.function{
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    padding: 0px;
 }
 .greetings{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
 }
 .bigpic{
     border-radius: 100%;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     max-height: 5rem;
+    margin-right: 20px;
 }
 .bigname{
-    font-size: 2em;
+    font-size: 200%;
 }
+
 
