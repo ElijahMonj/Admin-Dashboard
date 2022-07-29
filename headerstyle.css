@@ -45,8 +45,8 @@
 .searchicon{
   width: 2.5em;
   margin-left: 1.5%;
+  filter: invert(48%) sepia(7%) saturate(399%) hue-rotate(160deg) brightness(96%) contrast(88%);
   margin-right: 1.5%;
-  
 }
 #searchbar{
     width: 85%;
@@ -114,6 +114,9 @@ ul.function{
 }
 .bigname{
     font-size: 200%;
+}
+.searchicon:hover{
+    filter: invert(22%) sepia(14%) saturate(7313%) hue-rotate(196deg) brightness(99%) contrast(89%);
 }
 
 

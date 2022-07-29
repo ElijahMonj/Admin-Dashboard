@@ -11,7 +11,7 @@ body{
    
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 17em auto;
+    grid-template-rows: 17em auto 50px;
     height: 100%;
     width: 100%;
 }
@@ -50,8 +50,7 @@ cursor: pointer;
     
     position: relative;
     color: #BCC7CD;
-    grid-row-start: 4;
-    grid-row-end: 6;
+ 
     
 }
 .copyrights > div {
@@ -68,8 +67,8 @@ cursor: pointer;
   .githubicon:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
-  footer{
+footer{
     grid-column-start: 1;
     grid-column-end:3;
     background-color: #1C4D90;
-  }
+}
