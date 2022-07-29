@@ -15,7 +15,6 @@
 }
 .notif img{
     height: 60%;
-    
 }
 .notif img:hover{
     filter: invert(88%) sepia(34%) saturate(6897%) hue-rotate(3deg) brightness(106%) contrast(108%);
